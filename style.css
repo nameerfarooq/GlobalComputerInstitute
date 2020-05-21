@@ -1,0 +1,230 @@
+@font-face{
+    src: url(Merriweather-Bold.ttf);
+    font-family:Merriweather ;}
+
+
+
+body{
+    background-color:#f3f1f1 !important;
+}
+*{
+    /* border:2px solid black; */
+}
+
+
+/* navbar */
+
+
+
+
+.navbar-brand img{
+    height: 50px;
+    padding-left: 30px;
+}
+.nav-item{
+    padding:5px 5px 5px 5px;
+}
+.nav-link{
+    color: black;
+    
+    transition: 0.4s;
+    border-radius: 15px;
+}
+.nav-link:hover{
+    color: yellow;
+    background-color: black;
+    
+    border-style: none;
+}
+.navbar{
+    background-color: yellow ;
+    
+}
+
+
+
+
+
+
+/* carousal */
+
+
+
+
+.carousel-item img{
+    /* height:400px; */
+    height: 100%;
+    width: 100%;
+    margin-top: 80px !important;
+}
+
+/* marquee */
+
+
+#marqueenews{
+    background-color:yellow ;
+    height: 30px;
+}
+
+/* aboutus */
+
+#aboutus{
+    
+    text-align: center !important;
+    
+    
+}
+
+#mainheadings{
+    font-weight: bold;
+    font-family: Merriweather;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+    
+    
+}
+#cardscontainer{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#aboutpara{
+    margin: 10px 10% 10px 10%;
+    text-align: justify;
+    font-size: 14pt;
+}
+#cards img{
+    height: 120px;
+    width: 120px;
+    padding-top: 5px;
+}
+#cardspara{
+    width: 200px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+#cards h5{
+    color: white;
+    text-shadow: 2px 2px black;
+    
+  
+}
+
+
+#cards{
+text-align: center;
+    width: 210px;
+    height: 300px;
+    margin: 20px;
+    background-color: black;
+    color: yellow;
+    border-radius: 15px;
+    margin-left: 10%;
+    box-shadow: 3px 10px 10px 3px;
+    transition: 0.3s;
+}
+#cards:hover{
+    background-color: yellow;
+    color: black !important;
+}
+
+/* students */
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#students{
+    text-align: center;
+}
+.count{
+    font-size: 20pt;
+    font-weight: bold;
+    font-family:  Merriweather;
+    text-align: left !important;
+    padding-left: 10px;
+    color: grey;
+}
+table tr{
+    height: 30px;
+    text-align: right;
+}
+
+
+
+
+
+
+/* footer */
+
+
+#footer{
+    background-color: yellow;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 10%; */
+    margin-top: 50px;
+    padding-top: 40px;
+    font-family: Merriweather;;
+    justify-content: space-around
+}
+#footer div{
+    min-width: 320px;
+    text-align: center;
+    margin: 10px;
+    
+}
+#contactus img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    filter: brightness(0); 
+    -webkit-filter:brightness(0);
+}
+#affiliated{
+    min-width: 200px;
+    max-width: 300px;
+}
+#hrrr{
+    background-color: black;
+    width: 90%;
+}
+
+
+@media screen and (min-width: 1000px){
+	#messenger{
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        right: 3%;
+        top:85%;
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+        filter: drop-shadow(2px 20px 15px #222);
+    }
+}
+
+@media screen and (max-width: 1000px){
+	#messenger{
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        right: 3%;
+        top:85%;
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+        filter: drop-shadow(2px 20px 15px #222);
+    }
+}
+
+@media screen and (max-width: 700px){
+	#messenger{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        right: 3%;
+        top:85%;
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+        filter: drop-shadow(2px 20px 15px #222);
+    }
+}
