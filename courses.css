@@ -68,40 +68,126 @@ body{
     margin-right: 15px;
    
 }
-#coursename{
-    text-align:right  !important;
-    min-width: 310px;
-    max-width: 310px;
-    
-}
-#c1{
-text-align: right;
-color: yellow;
-background-color: black;
-min-width: 100px;
-width: fit-content;
-margin-left: auto;
-padding-left: 10px;
-
-
-}
-#c2{
+@media screen and (min-width: 1000px){
+	#coursename{
+        text-align:right  !important;
+        min-width: 310px;
+        max-width: 310px;
+        
+    }
+    #c1{
     text-align: right;
-    color: white;
-    background-color: black;
-    min-width: 200px;
-width: fit-content;
-margin-left: auto;
-
-}
-#c3{
-    text-align: right;
-    color: white;
+    color: yellow;
     background-color: black;
     min-width: 100px;
-width: fit-content;
-margin-left: auto;
+    width: fit-content;
+    margin-left: auto;
+    padding-left: 10px;
+    
+    
+    }
+    #c2{
+        text-align: right;
+        color: white;
+        background-color: black;
+        min-width: 200px;
+    width: fit-content;
+    margin-left: auto;
+    
+    }
+    #c3{
+        text-align: right;
+        color: white;
+        background-color: black;
+        min-width: 100px;
+    width: fit-content;
+    margin-left: auto;
+    }
 }
+
+@media screen and (max-width: 1000px){
+	#coursename{
+        text-align:right  !important;
+        min-width: 310px;
+        max-width: 310px;
+        
+    }
+    #c1{
+    text-align: right;
+    color: yellow;
+    background-color: black;
+    min-width: 100px;
+    width: fit-content;
+    margin-left: auto;
+    padding-left: 10px;
+    
+    
+    }
+    #c2{
+        text-align: right;
+        color: white;
+        background-color: black;
+        min-width: 200px;
+    width: fit-content;
+    margin-left: auto;
+    
+    }
+    #c3{
+        text-align: right;
+        color: white;
+        background-color: black;
+        min-width: 100px;
+    width: fit-content;
+    margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #courses{
+        margin: 20px ;
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: start !important; */
+        text-align: left !important;
+        
+    }
+    #coursename{
+        text-align:left !important;
+        min-width: 310px;
+        max-width: 310px;
+        left: 0;
+        
+    }
+    #c1{
+    text-align: left !important;
+    color: yellow;
+    background-color: black;
+    /* min-width: 100px; */
+    width: fit-content;
+    margin-right: auto !important;
+    padding-right: 10px;
+    
+    
+    }
+    #c2{
+        text-align: left;
+        color: white;
+        background-color: black;
+        /* min-width: 200px; */
+    width: fit-content;
+    margin-right: auto;
+    
+    }
+    #c3{
+        text-align: left;
+        color: white;
+        background-color: black;
+        min-width: 100px;
+    width: fit-content;
+    margin-right: auto;
+    }
+}
+
 
 #details{
     min-width: 200px;
@@ -181,4 +267,5 @@ margin-left: auto;
     background-color: black;
     width: 90%;
 }
+
 

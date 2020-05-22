@@ -38,8 +38,84 @@ body{
 }
 .navbar{
     background-color: yellow ;
+
     
 }
+
+*{
+    /* border: black 1px solid; */
+}
+/* campuses */
+#campus{
+    text-align: center;
+    margin-top: 100px;
+}
+#campus2{
+    text-align: center;
+    /* margin-top: 20px; */
+}
+#mainheadings{
+    font-weight: bold;
+    font-family: Merriweather;
+    margin-top: 10px;
+    margin-bottom: 20px;}
+
+#map1{
+    height: 300px;
+    width: 100%;
+}
+#map0{
+    -webkit-box-shadow: 4px 12px 43px -10px rgba(0,0,0,0.51);
+-moz-box-shadow: 4px 12px 43px -10px rgba(0,0,0,0.51);
+box-shadow: 4px 12px 43px -10px rgba(0,0,0,0.51);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#camptitle{
+    background-color: black;
+    color: yellow;
+    width: fit-content;
+    margin: 15px auto 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#head1{
+    color: yellow;
+    background-color: black !important;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+}
+#head2{
+    color: white;
+    background-color: black !important;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+}
+#paracampus{
+    margin-top: 10px;
+}
+#paracampus img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
