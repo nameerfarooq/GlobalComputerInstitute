@@ -1,0 +1,184 @@
+@font-face{
+    src: url(Merriweather-Bold.ttf);
+    font-family:Merriweather ;}
+
+
+
+body{
+    background-color:#f3f1f1 !important;
+}
+
+
+
+/* navbar */
+
+
+
+
+.navbar-brand img{
+    height: 50px;
+    padding-left: 30px;
+}
+.nav-item{
+    padding:5px 5px 5px 5px;
+}
+.nav-link{
+    color: black;
+    
+    transition: 0.4s;
+    border-radius: 15px;
+}
+.nav-link:hover{
+    color: yellow;
+    background-color: black;
+    
+    border-style: none;
+}
+.navbar{
+    background-color: yellow ;
+    
+}
+
+
+/* courses */
+
+#mainheadings{
+    font-weight: bold;
+    font-family: Merriweather;
+    
+    /* margin-bottom: 120px; */
+    padding-top: 100px;
+    padding-bottom: 40px;
+    
+}
+.container-fluid{
+    text-align: center;
+    /* padding-left: auto !important; */
+    /* padding-right: auto !important; */
+    margin-top: 110px;
+}
+#courses{
+    margin: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#courses div{
+    margin-right: 15px;
+   
+}
+#coursename{
+    text-align:right  !important;
+    min-width: 310px;
+    max-width: 310px;
+    
+}
+#c1{
+text-align: right;
+color: yellow;
+background-color: black;
+min-width: 100px;
+width: fit-content;
+margin-left: auto;
+padding-left: 10px;
+
+
+}
+#c2{
+    text-align: right;
+    color: white;
+    background-color: black;
+    min-width: 200px;
+width: fit-content;
+margin-left: auto;
+
+}
+#c3{
+    text-align: right;
+    color: white;
+    background-color: black;
+    min-width: 100px;
+width: fit-content;
+margin-left: auto;
+}
+
+#details{
+    min-width: 200px;
+    max-width: 300px;
+    text-align: left;
+
+}
+#fees{
+    background-color: yellow;
+    color:black;
+    margin-top: -10px;
+    width: fit-content;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+#outline{
+    display: flex;
+    max-width: 296px;
+    min-width: 296px;
+}
+#outline div{
+    margin-right: 5px;
+}
+#outlinehead{
+    text-align: center;
+    color: white;
+    background-color: black;
+    min-width: 140px;
+    max-width: 140px;
+    
+}
+
+.list-unstyled{
+    text-align: left;
+    font-size: 8pt;
+}
+#hrrr{
+    background-color: black;
+    width: 90% !important;
+}
+
+
+
+/* footer */
+
+
+#footer{
+    background-color: yellow;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 10%; */
+    margin-top: 50px;
+    padding-top: 40px;
+    font-family: Merriweather;;
+    justify-content: space-around
+}
+#footer div{
+    min-width: 320px;
+    text-align: center;
+    margin: 10px;
+    
+}
+#contactus img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    filter: brightness(0); 
+    -webkit-filter:brightness(0);
+}
+#affiliated{
+    min-width: 200px;
+    max-width: 300px;
+}
+#hrrr{
+    background-color: black;
+    width: 90%;
+}
+

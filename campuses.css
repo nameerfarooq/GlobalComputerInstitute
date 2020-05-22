@@ -1,0 +1,81 @@
+@font-face{
+    src: url(Merriweather-Bold.ttf);
+    font-family:Merriweather ;}
+
+
+
+body{
+    background-color:#f3f1f1 !important;
+}
+*{
+    /* border:2px solid black; */
+}
+
+
+/* navbar */
+
+
+
+
+.navbar-brand img{
+    height: 50px;
+    padding-left: 30px;
+}
+.nav-item{
+    padding:5px 5px 5px 5px;
+}
+.nav-link{
+    color: black;
+    
+    transition: 0.4s;
+    border-radius: 15px;
+}
+.nav-link:hover{
+    color: yellow;
+    background-color: black;
+    
+    border-style: none;
+}
+.navbar{
+    background-color: yellow ;
+    
+}
+
+
+
+/* footer */
+
+
+#footer{
+    background-color: yellow;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 10%; */
+    margin-top: 50px;
+    padding-top: 40px;
+    font-family: Merriweather;;
+    justify-content: space-around
+}
+#footer div{
+    min-width: 320px;
+    text-align: center;
+    margin: 10px;
+    
+}
+#contactus img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    filter: brightness(0); 
+    -webkit-filter:brightness(0);
+}
+#affiliated{
+    min-width: 200px;
+    max-width: 300px;
+}
+#hrrr{
+    background-color: black;
+    width: 90%;
+}
+
