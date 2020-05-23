@@ -58,12 +58,12 @@ body{
 }
 #director{
     justify-content: center;
-    width: 300px;
+    width: 100%;
     margin: 100px auto 40px auto;
 
 }
 #director img{
-    width: 90%;
+    width: 100%;
     height: auto;
     -webkit-box-shadow: 4px 12px 43px -10px rgba(0,0,0,0.51);
     -moz-box-shadow: 4px 12px 43px -10px rgba(0,0,0,0.51);
