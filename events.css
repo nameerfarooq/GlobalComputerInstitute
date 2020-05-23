@@ -41,6 +41,46 @@ body{
     
 }
 
+/* events */
+#events{
+    justify-content: center;
+    text-align: center;
+   
+}
+
+#mainheadings{
+    font-weight: bold;
+    font-family: Merriweather;
+    margin-top: 100px;
+    margin-bottom: 40px;}
+#eventspara{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+
+}
+#annual{
+    width: 95%;
+}
+
+
+
+#events2{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+#events2 img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+
+
+
+
 
 
 /* footer */
