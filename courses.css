@@ -83,6 +83,7 @@ body{
     width: fit-content;
     margin-left: auto;
     padding-left: 10px;
+    border-radius: 4px;
     
     
     }
@@ -93,6 +94,7 @@ body{
         min-width: 200px;
     width: fit-content;
     margin-left: auto;
+    border-radius: 4px;
     
     }
     #c3{
@@ -102,6 +104,7 @@ body{
         min-width: 100px;
     width: fit-content;
     margin-left: auto;
+    border-radius: 4px;
     }
 }
 
@@ -120,6 +123,7 @@ body{
     width: fit-content;
     margin-left: auto;
     padding-left: 10px;
+    border-radius: 4px;
     
     
     }
@@ -130,6 +134,7 @@ body{
         min-width: 200px;
     width: fit-content;
     margin-left: auto;
+    border-radius: 4px;
     
     }
     #c3{
@@ -139,6 +144,7 @@ body{
         min-width: 100px;
     width: fit-content;
     margin-left: auto;
+    border-radius: 4px;
     }
 }
 
@@ -168,6 +174,7 @@ body{
     width: fit-content;
     margin-right: auto !important;
     padding-right: 10px;
+    border-radius: 4px;
     
     
     }
@@ -178,6 +185,7 @@ body{
         /* min-width: 200px; */
     width: fit-content;
     margin-right: auto;
+    border-radius: 4px;
     
     
     }
@@ -188,6 +196,7 @@ body{
         min-width: 100px;
     width: fit-content;
     margin-right: auto;
+    border-radius: 4px;
     
     }
 }
@@ -221,6 +230,7 @@ body{
     /* padding-right: 10px; */
     margin-left: 0px;
     font-size: 15pt;
+    border-radius: 4px;
 
     
     
@@ -234,6 +244,7 @@ body{
     padding:0 5px 0 5px ;
     margin-left: 0px;
     font-size: 15pt;
+    border-radius: 4px;
 
     
     }
@@ -247,6 +258,7 @@ body{
     /* margin-right: auto; */
     margin-left: 0px;
     font-size: 18pt;
+    border-radius: 4px;
 
     }
    
