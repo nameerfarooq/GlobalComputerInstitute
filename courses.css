@@ -204,6 +204,7 @@ body{
 @media screen and (max-width: 550px){
     #courses{
         margin: 20px ;
+        margin-left: 0px !important;
         display: flex;
         flex-wrap: wrap;
         /* justify-content: start !important; */
@@ -215,7 +216,7 @@ body{
         align-self: left;
         min-width: 310px;
         max-width: 310px;
-        margin-left: 25px;
+        /* margin-left: 25px; */
         
 
         
@@ -269,7 +270,7 @@ body{
 
 #details{
     min-width: 200px;
-    max-width: 300px;
+    max-width: 250px;
     text-align: left;
 
 }
