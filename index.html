@@ -6,6 +6,11 @@
     <title>GLOBAL Computer Institute</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap-4.4.1-dist\css\bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha256-XJuslujM3cGzRZGiSi/KNSdk58uORO/mmrEQNjVtb5k=" crossorigin="anonymous"></script>
+  </head>
+    
 </head>
 <body>
 
@@ -155,7 +160,7 @@ theme_color="#0084ff">
 <div class="container-fluid" id="cardscontainer">
 <div id="cards">
   <div>
-    <img src="18plus.png" alt=""><h5>18+ years of service</h5>
+    <img src="18plus.png" alt=""><h5>20+ years of service</h5>
   
   
     
@@ -262,22 +267,30 @@ theme_color="#0084ff">
    Our Students
   </h1>
   
+  
+ 
+   <div class="row">
+    <div class="col">
+      <div class="num">59</div>
+    </div>
 
-  <table>
-    <tr>
-      <td><h3>CIT batches :</h3></td>
-      <td class="count">59</td>
-    </tr>
-    <tr>
-      <td><h3>DIT batches :</h3></td>
-      <td class="count">12</td>
-    </tr>
-    <tr>
-      <td><h3>passed outs : </h3></td>
-      <td class="count">20000+</td>
-    </tr>
+
+    <div class="col">
+      <div class="num">12</div>
+    </div>
+
+
+    <div class="col">
+      <div class="num">20000</div>
+    </div>
+    <script>
+      $(".num").counterUp({
+        delay:10,
+        time:1000
     
-  </table>
+      });
+    </script>
+  </div>
 
 </div>
 
@@ -318,7 +331,6 @@ theme_color="#0084ff">
 </div>
 
  </div>
-
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

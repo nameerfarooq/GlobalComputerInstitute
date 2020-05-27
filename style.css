@@ -1,6 +1,11 @@
 @font-face{
     src: url(Merriweather-Bold.ttf);
     font-family:Merriweather ;}
+    
+    
+@font-face{
+    src: url(iCiel\ Gotham-Medium.ttf);
+    font-family:gotham;}
 
 
 
@@ -31,13 +36,13 @@ body{
     border-radius: 15px;
 }
 .nav-link:hover{
-    color: yellow;
+    color: #fdde00;
     background-color: black;
     
     border-style: none;
 }
 .navbar{
-    background-color: yellow ;
+    background-color: #fdde00 ;
     
 }
 
@@ -62,7 +67,7 @@ body{
 
 
 #marqueenews{
-    background-color:yellow ;
+    background-color:#fdde00  ;
     height: 30px;
 }
 
@@ -76,8 +81,8 @@ body{
 }
 
 #mainheadings{
-    font-weight: bold;
-    font-family: Merriweather;
+    /* font-weight: bold; */
+    font-family: gotham;
     margin-top: 40px;
     margin-bottom: 20px;
     
@@ -119,25 +124,30 @@ text-align: center;
     height: 300px;
     margin: 20px;
     background-color: black;
-    color: yellow;
+    color: #fdde00 ;
     border-radius: 15px;
     margin-left: 10%;
     box-shadow: 3px 10px 10px 3px;
     transition: 0.3s;
 }
 #cards:hover{
-    background-color: yellow;
+    background-color: #fdde00 ;
     color: black !important;
 }
 
 /* students */
-table{
-    margin-left: auto;
-    margin-right: auto;
-}
+
 #students{
     text-align: center;
 }
+
+
+
+/* table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .count{
     font-size: 20pt;
     font-weight: bold;
@@ -149,7 +159,7 @@ table{
 table tr{
     height: 30px;
     text-align: right;
-}
+} */
 
 
 
@@ -160,7 +170,7 @@ table tr{
 
 
 #footer{
-    background-color: yellow;
+    background-color: #fdde00 ;
     color: black;
     display: flex;
     flex-wrap: wrap;
