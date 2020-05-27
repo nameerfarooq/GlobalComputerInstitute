@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap-4.4.1-dist\css\bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha256-XJuslujM3cGzRZGiSi/KNSdk58uORO/mmrEQNjVtb5k=" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
   </head>
     
 </head>
@@ -270,23 +270,30 @@ theme_color="#0084ff">
   
  
    <div class="row">
-    <div class="col">
+    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+      <div><img id="num-pic" src="student1.png" alt=""></div>
       <div class="num">59</div>
+      <div id="num-title"><h4>C.I.T Batches</h4></div>
     </div>
 
 
-    <div class="col">
+    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+      <div><img id="num-pic" src="students2.png" alt=""></div>
       <div class="num">12</div>
+      <div id="num-title"><h4>D.I.T Batches</h4></div>
     </div>
 
 
-    <div class="col">
-      <div class="num">20000</div>
+    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+      <div><img id="num-pic" src="student3.png" alt=""></div>
+      <div class="num">20,000 </div>
+      <div id="num-title"><h4>Students</h4></div>
     </div>
     <script>
       $(".num").counterUp({
         delay:10,
-        time:1000
+        time:2000,
+        
     
       });
     </script>
@@ -332,7 +339,7 @@ theme_color="#0084ff">
 
  </div>
 
-
+ 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
