@@ -201,7 +201,7 @@ body{
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 550px){
     #courses{
         margin: 20px ;
         display: flex;
