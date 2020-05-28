@@ -54,6 +54,7 @@ body{
     text-align: center;
     margin-top: 100px;
 }
+
 #campus2{
     text-align: center;
     /* margin-top: 20px; */
@@ -65,14 +66,14 @@ body{
     margin-bottom: 20px;}
 
 #map1{
-    height: 300px;
+    height: auto;
     width: 100%;
 }
 #map0{
     -webkit-box-shadow: 4px 12px 43px -10px rgba(0,0,0,0.51);
 -moz-box-shadow: 4px 12px 43px -10px rgba(0,0,0,0.51);
 box-shadow: 4px 12px 43px -10px rgba(0,0,0,0.51);
-    width: 80%;
+    width: 80% !important;
     margin-left: auto;
     margin-right: auto;
 }
