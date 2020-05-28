@@ -2,10 +2,14 @@
     src: url(Merriweather-Bold.ttf);
     font-family:Merriweather ;}
 
-
+    @font-face{
+        src: url(iCiel\ Gotham-Medium.ttf);
+        font-family:gotham;}
+    
 
 body{
     background-color:#f3f1f1 !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -27,15 +31,16 @@ body{
     
     transition: 0.4s;
     border-radius: 15px;
+    padding-left: 10px !important;
 }
 .nav-link:hover{
-    color: yellow;
+    color: #fdde00;
     background-color: black;
     
     border-style: none;
 }
 .navbar{
-    background-color: yellow ;
+    background-color: #fdde00 ;
     
 }
 
@@ -44,7 +49,7 @@ body{
 
 #mainheadings{
     font-weight: bold;
-    font-family: Merriweather;
+    font-family: gotham;
     
     /* margin-bottom: 120px; */
     padding-top: 50px;
@@ -68,6 +73,13 @@ body{
     margin-right: 15px;
    
 }
+
+*{
+    border: 1px solid black;
+}
+
+
+
 @media screen and (min-width: 1000px){
 	#coursename{
         text-align:right  !important;
@@ -75,36 +87,27 @@ body{
         max-width: 310px;
         
     }
-    #c1{
+    #ct1{
     text-align: right;
-    color: yellow;
-    background-color: black;
-    min-width: 100px;
-    width: fit-content;
-    margin-left: auto;
-    padding-left: 5px;
-    border-radius: 4px;
+    color: black;
+    font-family: gotham;
     
     
     }
-    #c2{
+    #ct2{
         text-align: right;
-        color: white;
-        background-color: black;
-        min-width: 200px;
-    width: fit-content;
-    margin-left: auto;
-    border-radius: 4px;
+        color: grey;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 14pt;
+       
+    
     
     }
-    #c3{
+    #ct3{
         text-align: right;
-        color: white;
-        background-color: black;
-        min-width: 100px;
-    width: fit-content;
-    margin-left: auto;
-    border-radius: 4px;
+        color: grey;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12pt;
     }
 }
 
@@ -115,175 +118,127 @@ body{
         max-width: 310px;
         
     }
-    #c1{
+    #ct1{
     text-align: right;
-    color: yellow;
-    background-color: black;
-    min-width: 100px;
-    width: fit-content;
-    margin-left: auto;
-    padding-left: 5px;
-    border-radius: 4px;
+    color: black;
+    font-family: gotham;
     
     
     }
-    #c2{
+    #ct2{
         text-align: right;
-        color: white;
-        background-color: black;
-        min-width: 200px;
-    width: fit-content;
-    margin-left: auto;
-    border-radius: 4px;
+        color: grey;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 14pt;
+       
+    
     
     }
-    #c3{
+    #ct3{
         text-align: right;
-        color: white;
-        background-color: black;
-        min-width: 100px;
-    width: fit-content;
-    margin-left: auto;
-    border-radius: 4px;
+        color: grey;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12pt;
     }
 }
 
 @media screen and (max-width: 700px){
-    #courses{
-        margin: 20px ;
-        display: flex;
-        flex-wrap: wrap;
-        /* justify-content: start !important; */
-        /* text-align: left !important; */
-        
-    }
-    
     #coursename{
-        align-content: right !important;
+        text-align:right  !important;
         min-width: 310px;
         max-width: 310px;
         
-
-        
     }
-    #c1{
-    text-align: left !important;
-    color: yellow;
-    background-color: black;
-    /* min-width: 100px; */
-    width: fit-content;
-    margin-right: auto !important;
-    padding-right: 5px;
-    border-radius: 4px;
+    #ct1{
+    text-align: right;
+    color: black;
+    font-family: gotham;
     
     
     }
-    #c2{
-        text-align: left;
-        color: white;
-        background-color: black;
-        /* min-width: 200px; */
-    width: fit-content;
-    margin-right: auto;
-    border-radius: 4px;
+    #ct2{
+        text-align: right;
+        color: grey;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 14pt;
+       
     
     
     }
-    #c3{
-        text-align: left;
-        color: white;
-        background-color: black;
-        min-width: 100px;
-    width: fit-content;
-    margin-right: auto;
-    border-radius: 4px;
-    
+    #ct3{
+        text-align: right;
+        color: grey;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12pt;
     }
 }
 
-@media screen and (max-width: 550px){
-    #courses{
-        margin: 20px ;
-        margin-left: 0px !important;
-        display: flex;
-        flex-wrap: wrap;
-        /* justify-content: start !important; */
-        /* text-align: left !important; */
-        
-    }
-    
+@media screen and (max-width: 704px){
     #coursename{
-        align-self: left;
+        text-align:center  !important;
         min-width: 310px;
         max-width: 310px;
-        /* margin-left: 25px; */
-        
-
         
     }
-    #c1{
-    text-align: left !important;
-    color: yellow;
-    background-color: black;
-    /* min-width: 100px; */
-    width: fit-content !important;
-    margin-right: auto !important;
-    /* padding-right: 10px; */
-    margin-left: 0px;
-    font-size: 15pt;
-    border-radius: 4px;
-    padding:0 5px 0 5px ;
-
+    #ct1{
+    text-align: center;
+    color: black;
+    font-family: gotham;
+    font-size: 22pt;
     
     
     }
-    #c2{
-        text-align: left;
-        color: white;
-        background-color: black;
-        min-width: max-content !important;
-    max-width: fit-content !important;
-    padding:0 5px 0 5px ;
-    margin-left: 0px;
-    font-size: 15pt;
-    border-radius: 4px;
-
+    #ct2{
+        text-align: center;
+        color: grey;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12pt;
+       
+    
     
     }
-    #c3{
-        text-align: left;
-        color: white;
-        background-color: black;
-        min-width: fit-content;
-    width: fit-content;
-    padding:0 5px 0 5px ;
-    /* margin-right: auto; */
-    margin-left: 0px;
-    font-size: 18pt;
-    border-radius: 4px;
-
+    #ct3{
+        text-align: center;
+        color: grey;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 10pt;
     }
-   
+    #details{
+        min-width: 250px;
+        max-width: 250px;
+        justify-content:left !important;
+        
+        
+    
+    }
+    #outline{
+        display: flex;
+        max-width: 296px;
+        min-width: 296px;
+        margin: auto auto auto auto;
+        justify-content: center;
+    }
+    
 }
 
 
 
 #details{
-    min-width: 200px;
-    max-width: 250px;
-    text-align: left;
+    min-width: 250px !important;
+    max-width: 250px !important;
+    text-align: left !important;
 
 }
 #details p{
     text-align: justify !important;
 } 
 #fees{
-    background-color: yellow;
+    
     color:black;
     margin-top: -10px;
     width: fit-content;
     padding-right: 10px;
-    font-weight: bold;
+    font-size: 10pt;
 }
 
 #outline{
@@ -296,8 +251,8 @@ body{
 }
 #outlinehead{
     text-align: center;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color:#fdde00 ;
     min-width: 140px;
     max-width: 140px;
     
@@ -318,14 +273,14 @@ body{
 
 
 #footer{
-    background-color: yellow;
+    background-color: #fdde00 ;
     color: black;
     display: flex;
     flex-wrap: wrap;
     /* padding-left: 10%; */
     margin-top: 50px;
     padding-top: 40px;
-    font-family: Merriweather;;
+    font-family: gotham;
     justify-content: space-around
 }
 #footer div{
