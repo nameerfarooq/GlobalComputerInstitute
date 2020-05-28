@@ -3,9 +3,13 @@
     font-family:Merriweather ;}
 
 
-
+    @font-face{
+        src: url(iCiel\ Gotham-Medium.ttf);
+        font-family:gotham;}
+    
 body{
     background-color:#f3f1f1 !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 *{
     /* border:2px solid black; */
@@ -26,18 +30,18 @@ body{
 }
 .nav-link{
     color: black;
-    
+    padding-left: 10px !important;
     transition: 0.4s;
     border-radius: 15px;
 }
 .nav-link:hover{
-    color: yellow;
+    color: #fdde00 ;
     background-color: black;
     
     border-style: none;
 }
 .navbar{
-    background-color: yellow ;
+    background-color: #fdde00 ;
 
     
 }
@@ -55,8 +59,8 @@ body{
     /* margin-top: 20px; */
 }
 #mainheadings{
-    font-weight: bold;
-    font-family: Merriweather;
+    /* font-weight: bold; */
+    font-family: gotham;
     margin-top: 10px;
     margin-bottom: 20px;}
 
@@ -75,15 +79,19 @@ box-shadow: 4px 12px 43px -10px rgba(0,0,0,0.51);
 
 #camptitle{
     background-color: black;
-    color: yellow;
+    color: #fdde00 ;
     width: fit-content;
     margin: 15px auto 20px auto;
     padding: 10px;
     border-radius: 10px;
 }
-
+#headofcampus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
 #head1{
-    color: yellow;
+    color: #fdde00 ;
     background-color: black !important;
     display: inline;
     padding: 10px;
@@ -95,9 +103,11 @@ box-shadow: 4px 12px 43px -10px rgba(0,0,0,0.51);
     display: inline;
     padding: 10px;
     border-radius: 10px;
+    margin-left: 5px;
 }
 #paracampus{
     margin-top: 10px;
+  
 }
 #paracampus img{
     width: 40px;
@@ -123,14 +133,14 @@ box-shadow: 4px 12px 43px -10px rgba(0,0,0,0.51);
 
 
 #footer{
-    background-color: yellow;
+    background-color: #fdde00 ;
     color: black;
     display: flex;
     flex-wrap: wrap;
     /* padding-left: 10%; */
     margin-top: 50px;
     padding-top: 40px;
-    font-family: Merriweather;;
+    font-family: gotham;;
     justify-content: space-around
 }
 #footer div{
