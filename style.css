@@ -34,6 +34,7 @@ body{
     
     transition: 0.4s;
     border-radius: 15px;
+    padding-left: 10px !important;
 }
 .nav-link:hover{
     color: #fdde00;
