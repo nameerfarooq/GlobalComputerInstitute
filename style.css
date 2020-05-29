@@ -110,11 +110,27 @@ body{
     width: 200px;
     padding-left: 5px;
     padding-right: 5px;
+    display:none;
+    transition-delay: 1s;
+    
+    
+    
+    
     
 }
+#cards:hover #cardspara{
+    display: inline;
+    
+    
+    
+    
+   
+}
+
 #cards h5{
-    color: white;
-    text-shadow: 2px 2px black;
+    color: black;
+    /* text-shadow: 2px 2px black; */
+    font-family: gotham;
     
   
 }
@@ -125,16 +141,24 @@ text-align: center;
     width: 210px;
     height: 300px;
     margin: 20px;
-    background-color: black;
-    color: #fdde00 ;
+    background-color: #fdde00;
+    color: black ;
     border-radius: 15px;
     margin-left: 10%;
     box-shadow: 3px 10px 10px 3px;
     transition: 0.3s;
+    padding-top: 70px;
+  
+    
 }
 #cards:hover{
     background-color: #fdde00 ;
     color: black !important;
+    padding-top: 0px;
+    box-shadow: 4px 14px 14px 4px;
+    /* transition: 0.5s; */
+    /* border: black 3px solid; */
+   
 }
 
 /* students */
